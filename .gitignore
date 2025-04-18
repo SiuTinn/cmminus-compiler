@@ -1,0 +1,18 @@
+# 可执行文件
+cc
+
+# Flex/Bison 生成文件
+lex.yy.c
+parser.tab.c
+parser.tab.h
+
+# 编译中间文件
+*.o
+*.out
+*.obj
+
+# 编辑器/系统文件
+*~
+*.swp
+.DS_Store
+.vscode/
